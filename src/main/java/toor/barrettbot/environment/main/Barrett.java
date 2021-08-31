@@ -15,7 +15,7 @@ public class Barrett {
     private static Guild g;
 
     public static void main(String[] args) throws LoginException {
-        JDA builder = JDABuilder.createDefault("eeeee")
+        JDA builder = JDABuilder.createDefault("token")
                 .setAutoReconnect(true)
                 .addEventListeners(new SnipeCommand())
                 .addEventListeners(new StartEvent())
