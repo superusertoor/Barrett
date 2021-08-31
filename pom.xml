@@ -14,7 +14,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>toor.barrettbot.environment.discord.main.Barrett</mainClass>
+                            <mainClass>toor.barrettbot.environment.main.Barrett</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

@@ -1,4 +1,4 @@
-package toor.barrettbot.environment.discord.main;
+package toor.barrettbot.environment.main;
 
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -15,7 +15,7 @@ public class Barrett {
     private static Guild g;
 
     public static void main(String[] args) throws LoginException {
-        JDA builder = JDABuilder.createDefault("ODU0ODEyNTYwNjY2MTMyNTAx.YMpYPA.lvypxd3RURoouVsNZep_eA-FFX0")
+        JDA builder = JDABuilder.createDefault("eeeee")
                 .setAutoReconnect(true)
                 .addEventListeners(new SnipeCommand())
                 .addEventListeners(new StartEvent())
