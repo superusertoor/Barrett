@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: toor.barrettbot.environment.discord.main.Barrett
+Class-Path: jsr305-3.0.2.jar opus-java-natives-1.1.0.jar JDA-4.3.0_280.j
+ ar jna-4.4.0.jar jackson-databind-2.10.1.jar jackson-annotations-2.10.1
+ .jar commons-collections4-4.1.jar jackson-core-2.10.1.jar trove4j-3.0.3
+ .jar okio-1.17.2.jar gson-2.8.7.jar annotations-16.0.1.jar slf4j-api-1.
+ 7.25.jar okhttp-3.13.0.jar opus-java-api-1.1.0.jar nv-websocket-client-
+ 2.14.jar
+
